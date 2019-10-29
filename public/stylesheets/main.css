@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+
+.input-field input, textarea{
+    color: white;
+}
+
+.white-text{
+    color: white;
+}
+
+.landing-section{
+    color: white;
+}
+
+.custom-orange{
+    background-color: #ff8300;
+}
+
+.insta-color{
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.section{
+    padding-bottom: 0;
+    color: white;
+}
+
+.card{
+    border-radius: 3px;
+}
+
+.card-content{
+    background-color: black;
+}
+
+.aLittleVisible{
+    min-width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aLittleVisible h1{
+    padding-top: 10px; 
+}
+
+#projects{
+    padding-top: 0;
+}
+
+#work{
+    background-color: #171719;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#skills{
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#mainText{
+    margin-top: 30vh;
+}
+
+#p1{
+    height: auto;
+}
+
+#contact{
+    margin: 0;
+    padding: 0;
+}
+
+#contact h1{
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px){
+  .brand-logo{
+      width: 100%;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .brand-logo{
+      font-size: 15px !important;
+  }
+}
