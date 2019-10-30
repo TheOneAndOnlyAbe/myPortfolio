@@ -3,6 +3,10 @@ body {
     color: rgba(255,255,255,0.8);
 }
 
+.color-black{
+  color: black !important;
+}
+
 .input-field input, textarea{
     color: white;
 }
@@ -20,9 +24,9 @@ body {
 }
 
 .insta-color{
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
@@ -47,7 +51,12 @@ body {
 }
 
 .aLittleVisible h1{
-    padding-top: 10px; 
+    padding-top: 10px;
+}
+
+.specialRow{
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
 #projects{
@@ -68,16 +77,6 @@ body {
     z-index: -1;
 }
 
-#skills{
-    padding: 0;
-    background-image: url('https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
-}
-
 #mainText{
     margin-top: 30vh;
 }
@@ -89,11 +88,17 @@ body {
 #contact{
     margin: 0;
     padding: 0;
+    background-image: url('https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 #contact h1{
     margin: 0;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -101,6 +106,18 @@ body {
   .brand-logo{
       width: 100%;
       text-align: center;
+  }
+  .card .card-title{
+    font-size: 15px;
+  }
+  img.responsive-img{
+    max-width: 50%;
+  }
+  h1{
+    font-size: 2.2rem;
+  }
+  h4{
+    font-size: 1.4rem;
   }
 }
 
